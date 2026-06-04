@@ -4,8 +4,6 @@ A widget that automatically switches to a fallback when its primary child overfl
 
 Useful for cases like action rows collapsing into a menu button, or any layout where you want a graceful degradation when space is constrained, without relying on pre-defined breakpoints.
 
----
-
 ## Usage
 
 A typical app bar pattern where actions collapse into a fallback overflow button:
@@ -29,13 +27,12 @@ OverflowFallbackWidget(
                 child: Text('Contact'),
             ),
         ],
-        ),
-        fallback: Align(
-        alignment: Alignment.centerRight,
-        child: IconButton(
-            onPressed: () {},
-            icon: Icon(Icons.more_vert),
+    ),
+    fallback: IconButton(
+        onPressed: () {},
+        icon: Icon(
+            Icons.more_vert_rounded,
         ),
     ),
-);
+),
 ```
