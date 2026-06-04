@@ -1,6 +1,6 @@
 name: overflow_fallback_widget
 description: "A widget that automatically switches to a fallback when its primary child overflows constraints."
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/TiagoLacerda/overflow-fallback-widget
 repository: https://github.com/TiagoLacerda/overflow-fallback-widget
 
